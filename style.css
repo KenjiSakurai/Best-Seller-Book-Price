@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(background.png);
+}
+
+img{
+    width: auto;
+    height: 70vh;
+    border: white 2px solid;
+}
+
+.card{
+    margin: 5vh 10vh 10vh 15vh;
+    float: left;
+    width: 20rem;
+}
+
+.card-body{
+    height: 30vh;
+}
+
+.card-author, .card-title{
+    text-align: center;
+}
+
+#price{
+    margin-left:5%;
+}
+
+header{
+    background-color: black;
+    opacity: 80%;
+    height: 15vh;
+}
+
+h1{
+    color: #FFFAE4;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 10vh;
+    box-shadow: 0 0 60px 30px black, 0 0 100px 60px rgb(97, 0, 97), 0 0 140px 90px rgb(231, 60, 247); 
+}
+
+.card-img {
+    width: 20rem;
+    height: 70vh;
+    border: white 2px solid;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.card-img:hover {
+transform: scale(1.1); 
+cursor: pointer;
+}
+
+
+
+.buttonDiv:hover {
+    cursor: not-allowed;
+}
